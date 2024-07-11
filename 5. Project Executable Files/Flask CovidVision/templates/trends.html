@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles4.css') }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <title>Covid-Vision</title>
+</head>
+<body>
+        <section>
+            <div class="nav-bar">
+              <h1 style=" font-size: 35px; margin-left: 30px; color:#E5E4E2; font-weight: bold;">Covid-Vision</h1>
+              <div class="inner-nav">
+                <a href="/" style="color: #ffff;font-weight: bold">Home</a>
+                <a href="about" style="color: #ffff;font-weight: bold">About</a>
+                <a href="precautions" style="color: #ffff;font-weight: bold">Precautions</a>
+                <a href="trends" style="color: #ffff;font-weight: bold;">Trends</a>
+                <a href="test" style="color: #ffff;font-weight: bold">Test</a>
+              </div>
+            </div>
+            <br>
+        </section>
+        <section>
+            <div class="container" style="height: auto;">
+                <p class="lines1" style="margin-top: 0; padding-top: 20px;">Trends In India</p>
+                <div class="img-container1">
+                <img class="image" src="{{ url_for('static', filename='image/May-25-Daily-New-Cases-and-Moving-Avg.avif') }}" alt="india1" height="290px" style="margin-right: 20px;">
+                <img class="image" src="{{ url_for('static',filename='image/81916349.webp') }}" alt="India2" height="245px" style="margin-right: 20px;">
+                <img class="image" src="{{ url_for('static',filename='image/images.jpg') }}" alt="India3" height="290px">
+                </div>
+                <p class="lines1" style="margin-top: 0; padding-top: 20px;">Trends In the World</p>
+                <div class="img-container2">
+                    <img class="image" src="{{ url_for('static', filename='image/world_trends.png') }}" alt="world1" height="200px" style="margin-right: 20px;">
+                    <img class="image" src="{{ url_for('static', filename='image/world_trends_2.png') }}" alt="world2" height="240px" style="margin-right: 20px;">
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <footer>
+            <p class="text">Copyright © 2024</p>
+        </footer>
+      <script src="js/index.js" charset="utf-8"></script>
+</body>
+</html>
