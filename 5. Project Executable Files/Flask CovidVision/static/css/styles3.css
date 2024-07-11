@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+    gap: 30px;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+}
+.nav-bar{
+    display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+.inner-nav{
+    margin-left: auto;
+    
+}
+body{
+    background-image: url('../image/back-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover, 100% auto;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.inner-nav{
+    margin-left: auto;
+}
+a{
+    font-size: 18px;
+    padding: 30px;
+}
+a:hover{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(209, 209, 209);
+}
